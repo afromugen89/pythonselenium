@@ -20,7 +20,7 @@ finally:
     chromeBrowser.close()
 
 try:
-    #Open Chrome browser and go to topdanmark website
+    #Open Firefox browser and go to topdanmark website
     firefoxBrowser = webdriver.Firefox()
     firefoxBrowser.get(init_url)
     
@@ -33,7 +33,7 @@ finally:
     firefoxBrowser.close()
 
 try:
-    #Open Chrome browser and go to topdanmark website
+    #Open IE browser and go to topdanmark website
     ieBrowser = webdriver.Ie()
     ieBrowser.get(init_url)
     
